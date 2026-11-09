@@ -1,0 +1,512 @@
+{
+  "bootstrapSha": "4a50d5583590eb7f207037e35136c1168bc02201",
+  "repository": "zenstory-ai/oh-story-claudecode",
+  "schemaVersion": 1,
+  "skillRoots": [
+    "skills"
+  ],
+  "skills": [
+    {
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "Browser CDP 操作工具",
+      "disposition": "excluded",
+      "excludeReason": "Generic browser-control component; provenance and existing ClawHub identity require separate review before any publication.",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "path": "skills/browser-cdp",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": "Third-party browser control component; existing ClawHub owner 0xcjl. Not covered by ZenStory contributor authorization.",
+        "status": "unconfirmed"
+      },
+      "runtimeDependsOn": [
+        "bin:node>=20",
+        "bin:agent-browser",
+        "app:google-chrome"
+      ],
+      "slug": "browser-cdp",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "catalogMigration": true,
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "story：网文工具箱路由",
+      "disposition": "publish",
+      "excludeReason": "",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "packageDigest": "08b6dad79e4b1dffe9543e8db8d87224bac08b5fda6a4f5dae5d8ebb07b4f562",
+      "path": "skills/story",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": ".clawhub/README.md#rights",
+        "status": "permission-recorded"
+      },
+      "runtimeDependsOn": [
+        "bin:node",
+        "skill:worldwonderer/story-cover@1.1.16",
+        "skill:worldwonderer/story-deslop@1.1.47",
+        "skill:worldwonderer/story-import@1.0.43",
+        "skill:worldwonderer/story-long-analyze@1.1.40",
+        "skill:worldwonderer/story-long-scan@1.1.27",
+        "skill:worldwonderer/story-long-write@1.2.8",
+        "skill:worldwonderer/story-review@1.1.51",
+        "skill:worldwonderer/story-setup@1.2.10",
+        "skill:worldwonderer/story-short-analyze@1.1.32",
+        "skill:worldwonderer/story-short-scan@1.1.22",
+        "skill:worldwonderer/story-short-write@1.2.7"
+      ],
+      "slug": "story",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.0.38"
+    },
+    {
+      "catalogMigration": true,
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "story-cover：小说封面生成",
+      "disposition": "publish",
+      "excludeReason": "",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "packageDigest": "f3ea2c75b008dfc49da3224ad283e7ca78ebbb869f21deb7c7e55afedcb7501f",
+      "path": "skills/story-cover",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": ".clawhub/README.md#rights",
+        "status": "permission-recorded"
+      },
+      "runtimeDependsOn": [
+        "host:image-generation-or-api-fallback"
+      ],
+      "slug": "story-cover",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.1.16"
+    },
+    {
+      "catalogMigration": true,
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "story-deslop：网文去 AI 味",
+      "disposition": "publish",
+      "excludeReason": "",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "packageDigest": "8c3f0cc5bf12bfdca09afe18f231fd12f43d52dca9300460676998727043af18",
+      "path": "skills/story-deslop",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": ".clawhub/README.md#rights",
+        "status": "permission-recorded"
+      },
+      "runtimeDependsOn": [
+        "bin:node",
+        "bin:python"
+      ],
+      "slug": "story-deslop",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.1.47"
+    },
+    {
+      "catalogMigration": true,
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "story-import：逆向导入已有小说",
+      "disposition": "publish",
+      "excludeReason": "",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "packageDigest": "865fcd2a70ec5f4787eafc9c9e56557aceb558fdb424d63f2c71b4b9a4aa00cd",
+      "path": "skills/story-import",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": ".clawhub/README.md#rights",
+        "status": "permission-recorded"
+      },
+      "runtimeDependsOn": [
+        "bin:node",
+        "bin:python"
+      ],
+      "slug": "story-import",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.0.43"
+    },
+    {
+      "catalogMigration": true,
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "story-long-analyze：长篇网文拆文",
+      "disposition": "publish",
+      "excludeReason": "",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "packageDigest": "2d66014d2746d07e052ec669706ca693883220de0a78e8753e28e64120b377e7",
+      "path": "skills/story-long-analyze",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": ".clawhub/README.md#rights",
+        "status": "permission-recorded"
+      },
+      "runtimeDependsOn": [
+        "bin:python"
+      ],
+      "slug": "story-long-analyze",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.1.40"
+    },
+    {
+      "catalogMigration": true,
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "story-long-scan：长篇网文扫榜",
+      "disposition": "publish",
+      "excludeReason": "",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "packageDigest": "4dcca9494926cf10e806002e11d21db25969185b81fe9288822f2b2ab5fd0a3e",
+      "path": "skills/story-long-scan",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": ".clawhub/README.md#rights",
+        "status": "permission-recorded"
+      },
+      "runtimeDependsOn": [
+        "bin:node",
+        "optional-skill:browser-cdp"
+      ],
+      "slug": "story-long-scan",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.1.27"
+    },
+    {
+      "catalogMigration": true,
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "story-long-write：长篇网文写作",
+      "disposition": "publish",
+      "excludeReason": "",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "packageDigest": "7e6a6b0e674e04ce6b85702bd88367714fc6d3517cdfcc08af94d2d6e2746efc",
+      "path": "skills/story-long-write",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": ".clawhub/README.md#rights",
+        "status": "permission-recorded"
+      },
+      "runtimeDependsOn": [
+        "bin:node",
+        "bin:python"
+      ],
+      "slug": "story-long-write",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.2.8"
+    },
+    {
+      "catalogMigration": true,
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "story-review：多视角对抗式审查",
+      "disposition": "publish",
+      "excludeReason": "",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "packageDigest": "0ced21ef1d5e7e5d8e27dd97bab4ca148c2e449500cdce4a3e0620936ef2520f",
+      "path": "skills/story-review",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": ".clawhub/README.md#rights",
+        "status": "permission-recorded"
+      },
+      "runtimeDependsOn": [
+        "bin:node",
+        "bin:python"
+      ],
+      "slug": "story-review",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.1.51"
+    },
+    {
+      "catalogMigration": true,
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "story-setup：网文写作工具集基础设施部署",
+      "disposition": "publish",
+      "excludeReason": "",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "packageDigest": "bd8dd42eddc8960f92d57fa9ed3876592194061dc83f34f06b5d4904f2313fd3",
+      "path": "skills/story-setup",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": ".clawhub/README.md#rights",
+        "status": "permission-recorded"
+      },
+      "runtimeDependsOn": [
+        "bin:node",
+        "bin:python"
+      ],
+      "slug": "story-setup",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.2.10"
+    },
+    {
+      "catalogMigration": true,
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "story-short-analyze：短篇网文拆文",
+      "disposition": "publish",
+      "excludeReason": "",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "packageDigest": "1c40c0743dd8fa32e67b4576277972ccb26aa0064ad6e81e95506b0cc8b737de",
+      "path": "skills/story-short-analyze",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": ".clawhub/README.md#rights",
+        "status": "permission-recorded"
+      },
+      "runtimeDependsOn": [],
+      "slug": "story-short-analyze",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.1.32"
+    },
+    {
+      "catalogMigration": true,
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "story-short-scan：短篇网文扫榜",
+      "disposition": "publish",
+      "excludeReason": "",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "packageDigest": "1e1c7c8bd4c8fb80372cf3fa741453a283ea94cc956dfbcbe8fb59b488eb856a",
+      "path": "skills/story-short-scan",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": ".clawhub/README.md#rights",
+        "status": "permission-recorded"
+      },
+      "runtimeDependsOn": [
+        "bin:node"
+      ],
+      "slug": "story-short-scan",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.1.22"
+    },
+    {
+      "catalogMigration": true,
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "story-short-write：短篇网文写作",
+      "disposition": "publish",
+      "excludeReason": "",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "packageDigest": "ea40241ca23cf5871bd37afc1917c3bf46faeeb54923cebdfaebab298acfc78b",
+      "path": "skills/story-short-write",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": ".clawhub/README.md#rights",
+        "status": "permission-recorded"
+      },
+      "runtimeDependsOn": [
+        "bin:node",
+        "bin:python"
+      ],
+      "slug": "story-short-write",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.2.7"
+    },
+    {
+      "categories": [
+        "creative",
+        "agents",
+        "knowledge"
+      ],
+      "displayName": "story-publish：发布准备",
+      "disposition": "excluded",
+      "excludeReason": "New skill publication identity and maintainer authorization remain under upstream review; bundled installs include it, standalone ClawHub story must handle its absence.",
+      "include": [
+        "**/*"
+      ],
+      "maintainer": "worldwonderer",
+      "path": "skills/story-publish",
+      "publisher": "worldwonderer",
+      "rebuildOn": [],
+      "rights": {
+        "evidence": "Pending upstream review of contributor authorization and publication identity.",
+        "status": "unconfirmed"
+      },
+      "runtimeDependsOn": [],
+      "slug": "story-publish",
+      "supportedRuntimes": [],
+      "topics": [
+        "writing",
+        "fiction",
+        "chinese",
+        "storytelling"
+      ],
+      "version": "1.0.0"
+    }
+  ]
+}
